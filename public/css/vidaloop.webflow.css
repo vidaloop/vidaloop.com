@@ -1,0 +1,3533 @@
+.header {
+  z-index: 10000;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.header-logo-wrapper {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.header-logo-wrapper.w--current {
+  padding-bottom: 60px;
+}
+
+.header-nav-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+}
+
+.header-nav-link {
+  color: #444;
+  margin-left: 5vw;
+  font-family: Red Hat Display, sans-serif;
+  font-weight: 500;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+.header-logo {
+  width: 100px;
+  min-width: 100px;
+}
+
+.body {
+  background-image: url('../images/BGRepeatNoise.png');
+  background-position: 0 0;
+  background-size: 60px;
+}
+
+.header-burger-wrapper {
+  padding-top: 30px;
+  padding-right: 30px;
+  display: none;
+}
+
+.header-burger-line {
+  width: 30px;
+  height: 1px;
+  background-color: #444;
+  margin-bottom: 6px;
+}
+
+.header-menu-mobile-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #0085ff;
+  padding: 160px 30px 30px;
+  display: none;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 100%;
+  right: auto;
+}
+
+.mobile-menu-nav-link {
+  color: #fff;
+  margin-bottom: 40px;
+  padding-left: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-decoration: none;
+  display: block;
+}
+
+.mobile-menu-x {
+  color: #fff;
+  cursor: default;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+  line-height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.next {
+  width: 100%;
+  height: 100vh;
+  margin-top: 600px;
+}
+
+.footer {
+  padding: 120px 180px;
+}
+
+.footer-logo {
+  width: 100px;
+  min-width: 100px;
+}
+
+.footer-line {
+  height: 1px;
+  background-color: #d8d8d8;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-links-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-links-text {
+  margin-right: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-weight: 400;
+}
+
+.footer-links-legal {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.footer-links-text-link {
+  color: #0085ff;
+  margin-right: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: none;
+}
+
+.footer-links-line {
+  width: 1px;
+  height: 20px;
+  background-color: #0085ff;
+  margin-right: 10px;
+}
+
+.footer-links-social {
+  order: 1;
+}
+
+.footer-link-social-icon {
+  color: #444;
+  margin-left: 20px;
+  font-family: "Font awesome 5 brands 400", sans-serif;
+  text-decoration: none;
+}
+
+.footer-legal-links-wrapper {
+  display: flex;
+}
+
+.banner {
+  width: 100%;
+  height: 120vh;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+}
+
+.banner-image-wrapper {
+  z-index: -1;
+  width: 50%;
+  height: 120vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  overflow: hidden;
+}
+
+.banner-image {
+  max-width: none;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.banner-text-wrapper {
+  max-width: 800px;
+  margin-top: 5vh;
+}
+
+.h1 {
+  color: #444;
+  object-fit: fill;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  position: static;
+}
+
+.h1-span {
+  color: #0085ff;
+}
+
+.cta-wrapper {
+  align-items: center;
+  margin-top: 40px;
+  text-decoration: none;
+  display: flex;
+}
+
+.cta-text {
+  color: #0085ff;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.cta-line {
+  width: 40px;
+  height: 1px;
+  background-color: #0085ff;
+  margin-right: 10px;
+}
+
+.products {
+  width: 100vw;
+  height: 700px;
+  max-width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.products-wrapper {
+  width: 50vw;
+  height: 75vw;
+  position: relative;
+}
+
+.product {
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.product-image-wrapper {
+  width: 30vw;
+  height: 40vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.product-image {
+  min-height: 40vw;
+  min-width: 30vw;
+}
+
+.product-text-wrapper {
+  z-index: 5;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 5vw;
+  left: 35vw;
+}
+
+.product-text-header {
+  color: #fff;
+  text-align: right;
+  text-shadow: 4px 4px 8px rgba(44, 46, 48, .2);
+  margin-bottom: 30px;
+  margin-left: -15vw;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 12vw;
+  font-weight: 700;
+  line-height: 12vw;
+}
+
+.product2 {
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.product2-text-wrapper {
+  z-index: 5;
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 5vw;
+  left: auto;
+  right: 35vw;
+}
+
+.product2-image-wrapper {
+  width: 30vw;
+  height: 40vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.product-text-body {
+  width: 280px;
+  text-align: left;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.product2-text-body {
+  width: 280px;
+  text-align: right;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.product2-text-header {
+  color: #fff;
+  text-align: right;
+  text-shadow: 4px 4px 8px rgba(44, 46, 48, .2);
+  margin-bottom: 30px;
+  margin-right: -15vw;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 12vw;
+  font-weight: 700;
+  line-height: 12vw;
+}
+
+.products-header {
+  width: 50vw;
+  margin-bottom: 30px;
+}
+
+.h4 {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.about-intro {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.about-intro-wrapper {
+  max-width: 1000px;
+}
+
+.product-slide-image-01 {
+  z-index: -1;
+  width: 320px;
+  position: static;
+  top: -10%;
+  bottom: auto;
+  left: auto;
+  right: 30%;
+}
+
+.arrow-cta-arrow {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 40px;
+  display: flex;
+}
+
+.product-slide-image-02 {
+  z-index: -2;
+  width: 320px;
+  position: static;
+  top: auto;
+  bottom: -10%;
+  left: 30%;
+  right: auto;
+}
+
+.products-slide-inner-wrapper {
+  height: 480px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.arrow-cta-outline {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.products-slide-header {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 4px 10px rgba(44, 46, 48, .2);
+  cursor: pointer;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+.products-slide-header:hover {
+  text-shadow: 3px 4px 10px rgba(44, 46, 48, .2);
+}
+
+.products-slide-body {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.products-slide-image-wrapper-01 {
+  z-index: -1;
+  width: 320px;
+  margin-right: -100px;
+  position: absolute;
+  top: -8%;
+  bottom: auto;
+  left: auto;
+  right: 50%;
+  overflow: hidden;
+  transform: rotate(-10deg);
+}
+
+.products-slide-image-wrapper-02 {
+  z-index: -2;
+  width: 320px;
+  margin-left: -100px;
+  position: absolute;
+  top: auto;
+  bottom: -8%;
+  left: 50%;
+  right: auto;
+  overflow: hidden;
+  transform: rotate(10deg);
+}
+
+.products-arrow-cta {
+  border: 0 solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.products-slider-wrapper {
+  width: 100vw;
+  height: 720px;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
+.mask-2 {
+  width: 50vw;
+  height: 480px;
+  overflow: visible;
+}
+
+.products-slide {
+  width: 50vw;
+  height: 480px;
+}
+
+.icon, .icon-2 {
+  opacity: 0;
+  color: #2c2e30;
+}
+
+.slide-nav-2 {
+  display: none;
+}
+
+.right-arrow, .left-arrow {
+  width: 25vw;
+  height: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 200px;
+}
+
+.products-mobile {
+  width: 100vw;
+  max-width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  display: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.commitments {
+  align-items: flex-start;
+  margin-top: 200px;
+  display: flex;
+}
+
+.commitments-images-wrapper {
+  width: 40%;
+  height: 50vw;
+  justify-content: flex-end;
+  margin-left: 10vw;
+  display: flex;
+  position: relative;
+}
+
+.products-slider-header {
+  width: 520px;
+  margin-bottom: 30px;
+}
+
+.commitments-text-wrapper {
+  width: 50%;
+  min-height: 33vw;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 17vw;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+}
+
+.commitment-wrapper {
+  align-items: flex-start;
+  margin-top: 40px;
+  display: flex;
+}
+
+.commitment-icon {
+  width: 60px;
+  margin-right: 30px;
+}
+
+.commitment-text {
+  max-width: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.h5 {
+  color: #444;
+  margin-bottom: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.p {
+  color: #444;
+  text-align: left;
+  margin-top: 28px;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.commitments-image-01-wrapper {
+  z-index: -2;
+  width: 25vw;
+  height: 33vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  overflow: hidden;
+}
+
+.commitments-image-01 {
+  transform-style: preserve-3d;
+}
+
+.commitments-image-02-wrapper {
+  z-index: -1;
+  width: 25vw;
+  height: 33vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  overflow: hidden;
+}
+
+.h2-commitments {
+  color: #444;
+  white-space: normal;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  position: absolute;
+  top: 6vw;
+  bottom: auto;
+  left: 15vw;
+  right: auto;
+}
+
+.join {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 200px;
+  margin-bottom: 120px;
+  display: flex;
+}
+
+.join-image-wrapper {
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.join-image {
+  width: 100%;
+}
+
+.join-header-wrapper {
+  z-index: 5;
+  width: 67%;
+  height: 140px;
+  background-color: #fff;
+  background-image: url('../images/BGRepeatNoise.png');
+  background-position: 0 0;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 80px;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.h2 {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.join-text {
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.about-products {
+  width: 100%;
+  height: 80vw;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-products-header {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.about-products-wrapper {
+  width: 50%;
+  height: 75vw;
+  position: relative;
+}
+
+.about-product {
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.about-product-image-wrapper {
+  width: 30vw;
+  height: 40vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.about-product-image {
+  min-height: 40vw;
+  min-width: 30vw;
+}
+
+.about-product-text-wrapper {
+  z-index: 5;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 5vw;
+  left: 35vw;
+}
+
+.about-product-text-header {
+  color: #fff;
+  text-align: right;
+  text-shadow: 4px 4px 8px rgba(44, 46, 48, .2);
+  margin-bottom: 30px;
+  margin-left: -15vw;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 12vw;
+  font-weight: 700;
+  line-height: 12vw;
+}
+
+.about-product-text-body {
+  width: 280px;
+  text-align: left;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-product-02 {
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.product2-image-wrapper-copy {
+  width: 30vw;
+  height: 40vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.about-product2-text-wrapper {
+  z-index: 5;
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 5vw;
+  left: auto;
+  right: 35vw;
+}
+
+.about-product2-text-header {
+  color: #fff;
+  text-align: right;
+  text-shadow: 4px 4px 8px rgba(44, 46, 48, .2);
+  margin-bottom: 30px;
+  margin-right: -23vw;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 10vw;
+  font-weight: 700;
+  line-height: 12vw;
+}
+
+.about-product2-text-body {
+  width: 280px;
+  text-align: right;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.workforus {
+  z-index: 1000;
+  width: 160px;
+  height: 160px;
+  color: #0085ff;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  text-decoration: none;
+  display: flex;
+  position: fixed;
+  top: auto;
+  bottom: 60px;
+  left: auto;
+  right: 60px;
+}
+
+.workforus-circle {
+  z-index: 100;
+  width: 120px;
+  height: 120px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  bottom: auto;
+  left: 20px;
+  right: auto;
+}
+
+.workforus-arrow {
+  width: 20px;
+}
+
+.about-nonpartisan {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 200px;
+  display: flex;
+}
+
+.about-nonpartisan-header {
+  width: 45%;
+  text-align: right;
+  padding-right: 80px;
+}
+
+.about-nonpartisan-body {
+  width: 55%;
+  max-width: 580px;
+  padding-top: 15px;
+  padding-right: 120px;
+}
+
+.about-team {
+  margin-top: 200px;
+  padding-left: 180px;
+  display: none;
+  overflow: hidden;
+}
+
+.h2-nonpartisan-desktop {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.h2-nonpartisan-mobile {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  display: none;
+  overflow: visible;
+}
+
+.team-slider {
+  width: 100%;
+  height: 70vh;
+  min-height: 45vw;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 80px;
+}
+
+.team-mask {
+  width: 60vw;
+  overflow: visible;
+}
+
+.team-slide-01 {
+  width: 30vw;
+  margin-right: 8vw;
+}
+
+.slide-nav-3 {
+  display: none;
+}
+
+.team-slide-01-image-wrapper {
+  width: 30vw;
+  height: 37vw;
+  align-self: auto;
+  overflow: hidden;
+}
+
+.team-left-arrow-arrow {
+  color: #444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+.team-left-arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #2c2e30;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: -120px;
+  bottom: auto;
+  left: auto;
+  right: 140px;
+}
+
+.team-right-arrow-arrow {
+  color: #444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+.team-right-arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #2c2e30;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: -120px;
+  bottom: auto;
+  left: auto;
+  right: 60px;
+}
+
+.team-member-01-title-wrapper {
+  width: 20vw;
+  margin-left: 30px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 100%;
+  right: auto;
+}
+
+.h6 {
+  text-align: left;
+  margin-bottom: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.team-slide-01-wrapper {
+  width: 30vw;
+  height: 70vh;
+  min-height: 45vw;
+  align-items: flex-start;
+  display: flex;
+}
+
+.team-slide-02 {
+  width: 25vw;
+  margin-right: 8vw;
+}
+
+.team-slide-02-wrapper {
+  width: 25vw;
+  height: 70vh;
+  min-height: 45vw;
+  align-items: flex-end;
+  display: flex;
+}
+
+.team-slide-02-image-wrapper {
+  width: 25vw;
+  height: 31vw;
+  align-self: auto;
+  overflow: hidden;
+}
+
+.team-member-02-title-wrapper {
+  width: 20vw;
+  margin-left: 30px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 100%;
+  right: auto;
+}
+
+.team-slide-03 {
+  width: 20vw;
+  margin-right: 8vw;
+}
+
+.team-slide-03-wrapper {
+  width: 20vw;
+  height: 70vh;
+  min-height: 45vw;
+  align-items: flex-start;
+  display: flex;
+}
+
+.team-slide-03-image-wrapper {
+  width: 20vw;
+  height: 25vw;
+  align-self: auto;
+  overflow: hidden;
+}
+
+.team-member-03-title-wrapper {
+  width: 20vw;
+  margin-left: 30px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 100%;
+  right: auto;
+}
+
+.next-wrapper {
+  z-index: 9999;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: auto;
+  bottom: 0%;
+  left: -100%;
+  right: 0%;
+}
+
+.next-image {
+  z-index: -1;
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  min-width: 100%;
+  position: absolute;
+}
+
+.next-text-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.next-subtitle {
+  color: #fff;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.next-headline {
+  color: #fff;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.next-body {
+  max-width: 400px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.arrow-cta-white {
+  border: 0 solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.arrow-cta-white-outline {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.arrow-cta-white-arrow {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 40px;
+  display: flex;
+}
+
+.careers-banner {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40vh;
+  display: flex;
+}
+
+.text-span {
+  color: #0085ff;
+}
+
+.careers-banner-text-wrapper {
+  max-width: 720px;
+  margin-bottom: 80px;
+  margin-left: 20vw;
+}
+
+.careers-banner-gallery-wrapper {
+  width: 80%;
+  height: 50vw;
+  position: relative;
+}
+
+.careers-banner-image-wrapper-01 {
+  z-index: -1;
+  width: 25vw;
+  height: 31vw;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  overflow: hidden;
+}
+
+.careers-banner-image {
+  width: 25vw;
+  height: 31vw;
+}
+
+.careers-banner-image-wrapper-02 {
+  z-index: 10;
+  width: 25vw;
+  height: 31vw;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 50%;
+  overflow: hidden;
+}
+
+.careers-banner-image-wrapper-03 {
+  z-index: -1;
+  width: 25vw;
+  height: 31vw;
+  position: absolute;
+  top: 10vw;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  overflow: hidden;
+}
+
+.careers-open-positions {
+  margin-top: 200px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #d8d8d8;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.careers-open-position-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+
+.careers-position-title {
+  min-width: 50%;
+  color: #0085ff;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.careers-open-position-details {
+  min-width: 40%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.careers-benefits {
+  margin-top: 280px;
+  margin-bottom: 120px;
+  padding-left: 180px;
+  padding-right: 60px;
+}
+
+.careers-benefit-wrapper {
+  max-width: 480px;
+  min-width: 480px;
+  opacity: 1;
+  align-items: flex-start;
+  margin-top: 120px;
+  margin-right: 120px;
+  display: flex;
+}
+
+.careers-benefit-icon {
+  width: 60px;
+}
+
+.careers-benefit-text-wrapper {
+  max-width: 400px;
+  margin-left: 30px;
+}
+
+.careers-benefit-header {
+  color: #444;
+  margin-bottom: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.careers-benefits-wrapper {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex;
+}
+
+.text-span-2 {
+  font-size: 14px;
+}
+
+.contact {
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  padding-left: 180px;
+  padding-right: 180px;
+  display: flex;
+}
+
+.contact-text-wrapper {
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-p {
+  color: #444;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-span-3 {
+  color: #0085ff;
+}
+
+.job-description {
+  margin-top: 280px;
+  margin-bottom: 0;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.text-span-4 {
+  color: #0085ff;
+  font-size: 40px;
+  line-height: 0;
+}
+
+.job-details {
+  color: #444;
+  text-align: left;
+  margin-top: 20px;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.job-description-about {
+  max-width: 680px;
+  margin-top: 120px;
+}
+
+.h4-job-description {
+  color: #444;
+  margin-bottom: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.job-description-role, .job-description-requirements {
+  max-width: 680px;
+  margin-top: 120px;
+}
+
+.h5-jobdescription {
+  color: #444;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.job-description-apply {
+  margin-top: 280px;
+  margin-bottom: 120px;
+  padding-left: 180px;
+  padding-right: 180px;
+  display: block;
+}
+
+.text-span-5 {
+  color: #0085ff;
+}
+
+.our-products {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 280px;
+  margin-bottom: 120px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-products-wrapper {
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  padding-left: 180px;
+  padding-right: 180px;
+  display: flex;
+}
+
+.our-products-product-wrapper {
+  width: 40vw;
+  height: 50vw;
+  max-width: 480px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-products-product-image {
+  z-index: -1;
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.our-products-product-text-wrapper {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.h2-white {
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.p-white {
+  color: #fff;
+  text-align: center;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.div-block-2 {
+  height: 100vh;
+}
+
+.product-header {
+  margin-top: 40vh;
+  margin-left: 20vw;
+}
+
+.product-header-text-wrapper {
+  flex-wrap: wrap;
+  align-items: flex-end;
+  display: flex;
+}
+
+.h120 {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+}
+
+.product-header-p {
+  max-width: 280px;
+  color: #444;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.product-header-banner {
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.product-header-banner-image {
+  width: 100%;
+  display: none;
+}
+
+.product-summary {
+  margin-top: 120px;
+  margin-left: 20vw;
+}
+
+.product-link {
+  max-width: 800px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-right: 120px;
+  display: flex;
+}
+
+.product-quick-stat-wrapper {
+  height: 70px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.p-link {
+  color: #0085ff;
+  text-align: left;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.product-summary-wrapper {
+  max-width: 800px;
+  margin-top: 0;
+  margin-right: 120px;
+}
+
+.product-gallery {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  padding-left: 20vw;
+  overflow: hidden;
+}
+
+.product-gallery-slider-mask {
+  width: 60vw;
+  height: 45vw;
+  max-height: 600px;
+  max-width: 800px;
+  overflow: visible;
+}
+
+.product-gallery-slider {
+  width: 60vw;
+  height: 45vw;
+  max-height: 600px;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.product-gallery-slider-slide {
+  margin-right: 30px;
+  overflow: hidden;
+  box-shadow: 13px 7px 40px rgba(42, 44, 47, .3);
+}
+
+.product-slider-slide {
+  width: 100%;
+  max-width: none;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.slide-nav-4 {
+  display: none;
+  overflow: hidden;
+}
+
+.product-right-arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #2c2e30;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: -80px;
+  bottom: auto;
+  left: auto;
+  right: 0;
+}
+
+.product-left-arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #2c2e30;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: -80px;
+  bottom: auto;
+  left: auto;
+  right: 80px;
+}
+
+.product-phones {
+  width: 100%;
+  padding-top: 200px;
+  padding-left: 20vw;
+  overflow: hidden;
+}
+
+.product-phones-wrapper {
+  width: 60vw;
+  height: 90vw;
+  position: relative;
+}
+
+.product-phones-phone-01 {
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.product-phones-phone-image {
+  width: 30vw;
+}
+
+.product-phones-text {
+  max-width: 600px;
+  text-align: right;
+  padding: 12vw 20px;
+}
+
+.product-phones-phone-02 {
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.product-phones-text-copy {
+  padding-top: 12vw;
+  padding-bottom: 12vw;
+}
+
+.product-phones-phone-image-02 {
+  width: 30vw;
+}
+
+.product-text-block {
+  max-width: 800px;
+  margin-top: 200px;
+  margin-left: 20vw;
+  margin-right: 10vw;
+  overflow: hidden;
+}
+
+.product-callout {
+  width: 100%;
+  padding: 200px 20vw 40px;
+  overflow: hidden;
+}
+
+.product-callout-wrapper {
+  position: relative;
+}
+
+.product-callout-image-wrapper {
+  height: 80vw;
+  position: relative;
+}
+
+.product-callout-image-01 {
+  z-index: 5;
+  width: 40vw;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  box-shadow: 14px 14px 40px rgba(68, 68, 68, .12);
+}
+
+.product-callout-image-02 {
+  z-index: 10;
+  width: 40vw;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  box-shadow: 13px 15px 40px rgba(68, 68, 68, .12);
+}
+
+.product-callout-text-01 {
+  width: 30vw;
+  max-width: 400px;
+  position: absolute;
+  top: 10vw;
+  bottom: auto;
+  left: 45vw;
+  right: auto;
+}
+
+.product-callout-text-02 {
+  width: 30vw;
+  max-width: 400px;
+  text-align: right;
+  position: absolute;
+  top: auto;
+  bottom: 10vw;
+  left: auto;
+  right: 45vw;
+}
+
+.p-left {
+  color: #444;
+  text-align: right;
+  padding-right: 0;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.h6-left {
+  text-align: right;
+  margin-bottom: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.product-bigimage {
+  margin-top: 200px;
+  margin-left: 20vw;
+  overflow: hidden;
+}
+
+.product-slider-slide-mobile {
+  width: 100%;
+  max-width: none;
+  min-height: 100%;
+  min-width: 100%;
+  display: none;
+}
+
+.privacy-section {
+  max-width: 680px;
+  margin-top: 120px;
+}
+
+.h4-privacy {
+  color: #444;
+  margin-bottom: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.h5-privacy {
+  color: #444;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.privacy-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-span-6 {
+  color: #0085ff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.privacy-wrapper {
+  margin-top: 40vh;
+  margin-bottom: 200px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.about-theteam {
+  margin-top: 280px;
+  padding-left: 180px;
+  padding-right: 180px;
+  overflow: hidden;
+}
+
+.about-theteam-wrapper {
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  display: flex;
+}
+
+.about-theteam-tile {
+  width: 20vw;
+  color: #444;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.about-theteam-image {
+  width: 25vw;
+  opacity: 1;
+}
+
+.about-theteam-image-wrapper {
+  width: 20vw;
+  height: 24.8vw;
+  background-color: #2c2e30;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-theteam-text-wrapper {
+  margin-top: 20px;
+}
+
+.about-theteam-image-bio {
+  max-height: 25vw;
+  opacity: 0;
+  color: #fff;
+  padding: 30px;
+  font-family: Red Hat Display, sans-serif;
+  line-height: 24px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+  overflow: auto;
+}
+
+.p-listitem, .list-item-2 {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.product-list {
+  margin-top: 30px;
+}
+
+.job-description-why {
+  max-width: 680px;
+  margin-top: 120px;
+}
+
+.job-about-vidaloop {
+  max-width: 1000px;
+  margin-top: 280px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.h2-job {
+  color: #444;
+  margin-bottom: 40px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.careers-why {
+  margin-top: 280px;
+  margin-bottom: 180px;
+  padding-left: 180px;
+  padding-right: 60px;
+}
+
+.careers-why-wrapper {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding-top: 60px;
+  display: flex;
+}
+
+.listitem-m-20 {
+  margin-bottom: 20px;
+}
+
+.h4-job-description-link {
+  color: #0085ff;
+  margin-bottom: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.h5-link {
+  color: #0085ff;
+  margin-bottom: 10px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.careers-join {
+  max-width: 1000px;
+  margin-top: 220px;
+  margin-bottom: 120px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.careers-join-wrapper {
+  margin-top: 60px;
+}
+
+.h4-careers-link {
+  color: #0085ff;
+  margin-bottom: 20px;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.italic-text {
+  color: #0085ff;
+  font-style: normal;
+}
+
+.link-2 {
+  color: #0085ff;
+}
+
+.about-theteam-tile-andy {
+  width: 20vw;
+  color: #444;
+  margin: 10px;
+  text-decoration: none;
+  display: none;
+}
+
+.careers-benefit-wrapper-hide {
+  max-width: 480px;
+  min-width: 480px;
+  align-items: flex-start;
+  margin-top: 120px;
+  margin-right: 120px;
+  display: none;
+}
+
+.text-span-7 {
+  font-size: 12px;
+}
+
+.product-header-banner-video {
+  width: 100%;
+  height: 45vw;
+}
+
+.careers-workable-embed-container {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.workable-embed {
+  width: 100%;
+  font-family: Red Hat Display, sans-serif;
+  font-weight: 400;
+}
+
+.about-collage {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  display: flex;
+  overflow: hidden;
+}
+
+.about-collage-row-01 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.about-collage-img-w {
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.about-collage-img {
+  width: 20vw;
+}
+
+.about-collage-row-02 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.about-collage-row-03 {
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.about-theteam-wrapper-legacy {
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  display: none;
+}
+
+.h3 {
+  color: #444;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.max-width-660 {
+  max-width: 660px;
+}
+
+.h2-span {
+  color: #0085ff;
+}
+
+.about-gallery {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40vh;
+  display: flex;
+}
+
+.about-gallery-wrapper {
+  width: 80%;
+  height: 50vw;
+  position: relative;
+}
+
+.about-gallery-image-wrapper-01 {
+  z-index: -1;
+  width: 25vw;
+  height: 31vw;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  overflow: hidden;
+}
+
+.about-gallery-image {
+  width: 25vw;
+  height: 31vw;
+}
+
+.about-gallery-image-wrapper-02 {
+  z-index: 10;
+  width: 25vw;
+  height: 31vw;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 50%;
+  overflow: hidden;
+}
+
+.about-gallery-image-wrapper-03 {
+  z-index: -1;
+  width: 25vw;
+  height: 31vw;
+  position: absolute;
+  top: 10vw;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  overflow: hidden;
+}
+
+.product-gallery-2 {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-collage-row {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: visible;
+}
+
+.careers-collage-img-w {
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.careers-collage-img {
+  width: 36vw;
+  height: 24vw;
+}
+
+.product-gallery-grey-bg {
+  z-index: -1;
+  width: 100%;
+  height: 50%;
+  background-color: #f2f4f6;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+
+.careers-gallery {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.careers-collage-row-1 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  overflow: visible;
+}
+
+.careers-collage-row-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: visible;
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+  }
+
+  .header-nav-link {
+    margin-left: 40px;
+    padding-left: 0;
+  }
+
+  .header-menu-mobile-wrapper {
+    left: 0;
+  }
+
+  .mobile-menu-nav-link {
+    padding-left: 0;
+  }
+
+  .footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .footer-links-legal {
+    display: block;
+  }
+
+  .footer-legal-links-wrapper {
+    margin-top: 10px;
+  }
+
+  .h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .products {
+    height: auto;
+    margin-top: 120px;
+  }
+
+  .products-wrapper {
+    width: 60vw;
+    height: 90vw;
+  }
+
+  .products-slider-wrapper {
+    display: none;
+  }
+
+  .products-mobile {
+    display: flex;
+  }
+
+  .commitments {
+    flex-direction: column;
+    margin-top: 120px;
+  }
+
+  .commitments-images-wrapper {
+    width: 100%;
+    height: 90vw;
+    margin-left: 0;
+  }
+
+  .products-slider-header {
+    display: none;
+  }
+
+  .commitments-text-wrapper {
+    width: 100%;
+    min-height: auto;
+    margin-top: 80px;
+  }
+
+  .commitments-image-01-wrapper {
+    width: 60vw;
+    height: 60vw;
+    align-items: flex-end;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .commitments-image-01 {
+    transform: rotateX(0)rotateY(180deg)rotateZ(0);
+  }
+
+  .commitments-image-02-wrapper {
+    width: 60vw;
+    height: 60vw;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+  }
+
+  .h2-commitments {
+    top: auto;
+    bottom: 10vw;
+    left: 10vw;
+    right: auto;
+  }
+
+  .commitments-image-02 {
+    transform: rotate(0);
+  }
+
+  .join {
+    align-items: flex-start;
+    margin-bottom: 80px;
+  }
+
+  .join-image-wrapper {
+    width: 100%;
+  }
+
+  .join-header-wrapper {
+    width: 80%;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+
+  .join-text {
+    width: 80%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .about-products {
+    height: auto;
+    margin-top: 120px;
+  }
+
+  .about-products-header {
+    width: 60%;
+  }
+
+  .about-products-wrapper {
+    width: 60vw;
+    height: 90vw;
+  }
+
+  .workforus {
+    display: none;
+  }
+
+  .about-nonpartisan {
+    flex-direction: column;
+  }
+
+  .about-nonpartisan-header {
+    width: 100%;
+    text-align: left;
+    padding-left: 80px;
+  }
+
+  .about-nonpartisan-body {
+    width: 100%;
+    max-width: none;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .about-team {
+    padding-left: 80px;
+  }
+
+  .h2-nonpartisan-desktop {
+    display: none;
+  }
+
+  .h2-nonpartisan-mobile {
+    display: block;
+  }
+
+  .team-slider {
+    margin-top: 60px;
+  }
+
+  .team-slide-01 {
+    width: 40vw;
+    margin-right: 30px;
+  }
+
+  .team-slide-01-image-wrapper {
+    width: 40vw;
+    height: 50vw;
+  }
+
+  .team-member-01-title-wrapper {
+    margin-top: 30px;
+    margin-left: 0;
+    position: static;
+  }
+
+  .team-slide-01-wrapper {
+    width: 40vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .team-slide-02 {
+    width: 40vw;
+    margin-right: 30px;
+  }
+
+  .team-slide-02-wrapper {
+    width: 40vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .team-slide-02-image-wrapper {
+    width: 40vw;
+    height: 50vw;
+  }
+
+  .team-member-02-title-wrapper {
+    margin-top: 30px;
+    margin-left: 0;
+    position: static;
+  }
+
+  .team-slide-03 {
+    width: 40vw;
+    margin-right: 30px;
+  }
+
+  .team-slide-03-wrapper {
+    width: 40vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .team-slide-03-image-wrapper {
+    width: 40vw;
+    height: 50vw;
+  }
+
+  .team-member-03-title-wrapper {
+    margin-top: 30px;
+    margin-left: 0;
+    position: static;
+  }
+
+  .careers-banner-text-wrapper {
+    max-width: 500px;
+    margin-left: 20vw;
+  }
+
+  .careers-banner-gallery-wrapper {
+    width: 100%;
+    height: 60vw;
+  }
+
+  .careers-banner-image-wrapper-01, .careers-banner-image-wrapper-02, .careers-banner-image-wrapper-03 {
+    width: 30vw;
+    height: 37vw;
+  }
+
+  .careers-open-positions, .careers-benefits {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .careers-benefit-wrapper {
+    width: 100%;
+    max-width: none;
+    min-width: auto;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .careers-benefit-text-wrapper {
+    max-width: none;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .job-description, .job-description-apply {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .our-products {
+    height: auto;
+    margin-top: 120px;
+  }
+
+  .our-products-wrapper, .our-products-product-text-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .h120 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .product-phones-wrapper {
+    width: 70vw;
+    height: 100vw;
+  }
+
+  .product-phones-phone-image {
+    width: 35vw;
+  }
+
+  .product-phones-text {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .product-phones-phone-image-02 {
+    width: 35vw;
+  }
+
+  .product-callout-wrapper {
+    width: auto;
+    height: auto;
+  }
+
+  .product-callout-image-wrapper {
+    height: 90vw;
+  }
+
+  .product-callout-text-02 {
+    bottom: 10vw;
+  }
+
+  .privacy-wrapper, .about-theteam {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .about-theteam-tile, .about-theteam-image {
+    width: 35vw;
+  }
+
+  .about-theteam-image-wrapper {
+    width: 35vw;
+    height: 44vw;
+  }
+
+  .job-about-vidaloop, .careers-why, .careers-join {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .about-theteam-tile-andy {
+    width: 35vw;
+  }
+
+  .careers-benefit-wrapper-hide {
+    width: 100%;
+    max-width: none;
+    min-width: auto;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .about-collage-img-w {
+    margin: 5px;
+  }
+
+  .about-gallery-wrapper {
+    width: 100%;
+    height: 60vw;
+  }
+
+  .about-gallery-image-wrapper-01, .about-gallery-image-wrapper-02, .about-gallery-image-wrapper-03 {
+    width: 30vw;
+    height: 37vw;
+  }
+
+  .careers-collage-img-w {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .careers-collage-row-1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+  }
+
+  .header-logo-wrapper {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  .header-logo-wrapper.w--current {
+    padding-bottom: 30px;
+  }
+
+  .header-nav-wrapper {
+    display: none;
+  }
+
+  .header-burger-wrapper {
+    padding-bottom: 30px;
+    display: block;
+  }
+
+  .header-menu-mobile-wrapper {
+    display: block;
+    left: 100vw;
+  }
+
+  .mobile-menu-nav-link {
+    padding-left: 0;
+  }
+
+  .next {
+    margin-top: 200px;
+  }
+
+  .footer {
+    padding: 40px 30px;
+  }
+
+  .footer-links-wrapper {
+    flex-direction: column;
+    display: block;
+  }
+
+  .footer-links-social {
+    margin-bottom: 20px;
+  }
+
+  .footer-link-social-icon {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .banner {
+    height: auto;
+    padding-left: 30px;
+    display: block;
+  }
+
+  .banner-image-wrapper {
+    width: 100%;
+    height: 320px;
+    align-items: center;
+    position: static;
+  }
+
+  .banner-image {
+    width: 100%;
+    min-height: auto;
+    min-width: 100%;
+  }
+
+  .banner-text-wrapper {
+    margin-top: 200px;
+    margin-bottom: 80px;
+  }
+
+  .h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .products {
+    margin-top: 120px;
+    display: block;
+  }
+
+  .products-wrapper {
+    width: auto;
+    height: auto;
+  }
+
+  .product {
+    position: static;
+  }
+
+  .product-image-wrapper {
+    width: 80vw;
+    height: 107vw;
+  }
+
+  .product-text-wrapper {
+    padding: 30px;
+    position: static;
+  }
+
+  .product-text-header {
+    color: #444;
+    text-shadow: none;
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .product2 {
+    margin-top: 80px;
+    position: static;
+  }
+
+  .product2-text-wrapper {
+    align-items: flex-start;
+    padding: 30px 30px 30px 20vw;
+    position: static;
+  }
+
+  .product2-image-wrapper {
+    width: 80vw;
+    height: 107vw;
+    margin-left: 20vw;
+  }
+
+  .product-text-body {
+    width: auto;
+  }
+
+  .product2-text-body {
+    width: auto;
+    text-align: left;
+  }
+
+  .product2-text-header {
+    color: #444;
+    text-align: left;
+    text-shadow: none;
+    margin-bottom: 20px;
+    margin-right: 0;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .products-header {
+    width: 100vw;
+    padding-left: 30px;
+  }
+
+  .h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .about-intro {
+    height: 60vh;
+    padding-top: 20vh;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-intro-wrapper {
+    max-width: 450px;
+  }
+
+  .products-mobile {
+    margin-top: 0;
+    display: block;
+  }
+
+  .commitments {
+    margin-top: 80px;
+  }
+
+  .commitments-images-wrapper {
+    height: 110vw;
+  }
+
+  .products-slider-header {
+    width: 100vw;
+    padding-left: 30px;
+  }
+
+  .commitments-text-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .h5 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .commitments-image-01-wrapper, .commitments-image-02-wrapper {
+    height: 80vw;
+  }
+
+  .h2-commitments {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .join-image {
+    width: 720px;
+    height: 400px;
+    max-width: none;
+    min-width: 720px;
+  }
+
+  .join-header-wrapper {
+    height: 100px;
+    padding-left: 30px;
+  }
+
+  .h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .join-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-products {
+    margin-top: 120px;
+    display: block;
+  }
+
+  .about-products-header {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .about-products-wrapper {
+    width: auto;
+    height: auto;
+  }
+
+  .about-product {
+    position: static;
+  }
+
+  .about-product-image-wrapper {
+    width: 80vw;
+    height: 107vw;
+  }
+
+  .about-product-text-wrapper {
+    padding: 30px;
+    position: static;
+  }
+
+  .about-product-text-header {
+    color: #444;
+    text-shadow: none;
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .about-product-text-body {
+    width: auto;
+  }
+
+  .about-product-02 {
+    margin-top: 80px;
+    position: static;
+  }
+
+  .product2-image-wrapper-copy {
+    width: 80vw;
+    height: 107vw;
+    margin-left: 20vw;
+  }
+
+  .about-product2-text-wrapper {
+    align-items: flex-start;
+    padding: 30px 30px 30px 20vw;
+    position: static;
+  }
+
+  .about-product2-text-header {
+    color: #444;
+    text-align: left;
+    text-shadow: none;
+    margin-bottom: 20px;
+    margin-right: 0;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .about-product2-text-body {
+    width: auto;
+    text-align: left;
+  }
+
+  .about-nonpartisan {
+    margin-top: 120px;
+  }
+
+  .about-nonpartisan-header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-nonpartisan-body {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-team {
+    margin-top: 120px;
+    padding-left: 30px;
+  }
+
+  .h2-nonpartisan-desktop, .h2-nonpartisan-mobile {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .team-slider {
+    margin-top: 30px;
+  }
+
+  .team-slide-01 {
+    width: 75vw;
+    margin-right: 20px;
+  }
+
+  .team-slide-01-image-wrapper {
+    width: 75vw;
+    height: 93vw;
+  }
+
+  .team-left-arrow {
+    display: none;
+    right: -140px;
+  }
+
+  .team-right-arrow {
+    display: none;
+    right: -60px;
+  }
+
+  .team-member-01-title-wrapper, .team-slide-01-wrapper {
+    width: 75vw;
+  }
+
+  .team-slide-02 {
+    width: 75vw;
+    margin-right: 20px;
+  }
+
+  .team-slide-02-wrapper {
+    width: 75vw;
+  }
+
+  .team-slide-02-image-wrapper {
+    width: 75vw;
+    height: 93vw;
+  }
+
+  .team-member-02-title-wrapper {
+    width: 75vw;
+  }
+
+  .team-slide-03 {
+    width: 75vw;
+    margin-right: 20px;
+  }
+
+  .team-slide-03-wrapper {
+    width: 75vw;
+  }
+
+  .team-slide-03-image-wrapper {
+    width: 75vw;
+    height: 93vw;
+  }
+
+  .team-member-03-title-wrapper {
+    width: 75vw;
+  }
+
+  .next-wrapper {
+    overflow: hidden;
+  }
+
+  .next-image {
+    width: auto;
+    height: 100vh;
+  }
+
+  .next-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .next-headline {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .next-body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .careers-banner {
+    align-items: flex-start;
+    margin-top: 20vh;
+  }
+
+  .careers-banner-text-wrapper {
+    max-width: 280px;
+    margin-left: 30px;
+  }
+
+  .careers-banner-gallery-wrapper {
+    height: 110vw;
+  }
+
+  .careers-banner-image-wrapper-01, .careers-banner-image {
+    width: 60vw;
+    height: 75vw;
+  }
+
+  .careers-banner-image-wrapper-02 {
+    width: 60vw;
+    height: 75vw;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .careers-banner-image-wrapper-03 {
+    display: none;
+  }
+
+  .careers-open-positions {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .careers-open-position-wrapper {
+    flex-direction: column;
+  }
+
+  .careers-open-position-details {
+    margin-top: 20px;
+  }
+
+  .careers-benefits {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .careers-benefit-wrapper {
+    margin-top: 80px;
+  }
+
+  .contact {
+    height: 80vh;
+    margin-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .job-description {
+    margin-top: 200px;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .h4-job-description, .h5-jobdescription {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .job-description-apply {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .our-products {
+    margin-top: 200px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+  }
+
+  .our-products-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .our-products-product-wrapper {
+    width: 90vw;
+    height: 120vw;
+  }
+
+  .our-products-product-image {
+    width: 90vw;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+  }
+
+  .h2-white {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .product-header {
+    margin-top: 220px;
+    margin-left: 60px;
+  }
+
+  .h120 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .product-header-p {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .product-header-banner {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    display: flex;
+  }
+
+  .product-header-banner-image {
+    width: auto;
+    max-height: 400px;
+    max-width: none;
+    min-height: 400px;
+    display: block;
+  }
+
+  .product-summary {
+    margin-top: 120px;
+    margin-left: 60px;
+  }
+
+  .product-link {
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  .product-quick-stat-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .product-summary-wrapper {
+    margin-top: 60px;
+    margin-right: 30px;
+  }
+
+  .product-gallery {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0;
+    padding-top: 40px;
+    padding-left: 10vw;
+  }
+
+  .product-gallery-slider-mask, .product-gallery-slider {
+    width: 75vw;
+    height: 90vw;
+  }
+
+  .product-gallery-slider-slide {
+    margin-right: 20px;
+  }
+
+  .product-slider-slide {
+    width: auto;
+    height: 90vw;
+    display: none;
+  }
+
+  .product-right-arrow {
+    opacity: 0;
+    display: none;
+    right: -60px;
+  }
+
+  .product-left-arrow {
+    opacity: 0;
+    display: none;
+    right: -140px;
+  }
+
+  .product-phones {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .product-phones-wrapper {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .product-phones-phone-01 {
+    flex-direction: column;
+    position: static;
+  }
+
+  .product-phones-phone-image {
+    width: 100%;
+    max-width: none;
+    margin-left: -15%;
+  }
+
+  .product-phones-text {
+    text-align: left;
+    padding: 30px;
+  }
+
+  .product-phones-phone-02 {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    padding-left: 0;
+    position: static;
+  }
+
+  .product-phones-phone-image-02 {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: -15vw;
+  }
+
+  .product-text-block {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .product-callout {
+    width: 100%;
+    margin-top: 120px;
+    margin-left: 0;
+    padding: 0 0;
+  }
+
+  .product-callout-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .product-callout-image-wrapper {
+    height: 140vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .product-callout-image-01, .product-callout-image-02 {
+    width: 70vw;
+  }
+
+  .product-callout-text-01, .product-callout-text-02 {
+    width: 100%;
+    max-width: none;
+    padding: 30px 30px 30px 60px;
+    position: static;
+  }
+
+  .p-left, .h6-left {
+    text-align: left;
+  }
+
+  .product-bigimage {
+    width: 100%;
+    height: 120vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+
+  .product-bigimage-image {
+    width: 180%;
+    height: 120vw;
+    max-width: none;
+    min-width: 180%;
+  }
+
+  .product-slider-slide-mobile {
+    width: auto;
+    height: 90vw;
+    display: block;
+  }
+
+  .h4-privacy, .h5-privacy {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .privacy-wrapper {
+    margin-top: 200px;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-theteam {
+    margin-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about-theteam-tile, .about-theteam-image {
+    width: 40vw;
+  }
+
+  .about-theteam-image-wrapper {
+    width: 40vw;
+    height: 50vw;
+  }
+
+  .about-theteam-image-bio {
+    max-height: 50vw;
+  }
+
+  .job-about-vidaloop {
+    margin-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .h2-job {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .careers-why {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .list {
+    padding-left: 20px;
+  }
+
+  .h4-job-description-link, .h5-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .careers-join {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .h4-careers-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .about-theteam-tile-andy {
+    width: 40vw;
+  }
+
+  .careers-benefit-wrapper-hide {
+    margin-top: 80px;
+  }
+
+  .product-header-banner-video {
+    display: none;
+  }
+
+  .about-collage-img {
+    width: 35vw;
+  }
+
+  .about-collage-row-03 {
+    display: flex;
+  }
+
+  .h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .about-gallery {
+    align-items: flex-start;
+    margin-top: 20vh;
+  }
+
+  .about-gallery-wrapper {
+    height: 110vw;
+  }
+
+  .about-gallery-image-wrapper-01, .about-gallery-image {
+    width: 60vw;
+    height: 75vw;
+  }
+
+  .about-gallery-image-wrapper-02 {
+    width: 60vw;
+    height: 75vw;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+  }
+
+  .about-gallery-image-wrapper-03 {
+    display: none;
+  }
+
+  .careers-collage-img-w {
+    width: 50vw;
+  }
+
+  .careers-collage-img {
+    width: 80vw;
+    height: 53vw;
+    max-width: none;
+    min-width: 80vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header-menu-mobile-wrapper {
+    padding-top: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    left: 100vw;
+  }
+
+  .mobile-menu-nav-link {
+    color: #fff;
+    margin-bottom: 20px;
+    padding-left: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    display: block;
+  }
+
+  .mobile-menu-x {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 40px;
+    position: absolute;
+    top: 20px;
+    bottom: auto;
+    left: auto;
+    right: 30px;
+  }
+
+  .product-text-body {
+    width: 260px;
+  }
+
+  .about-intro-wrapper {
+    max-width: 320px;
+  }
+
+  .about-product-text-body {
+    width: 260px;
+  }
+
+  .about-theteam-tile, .about-theteam-image {
+    width: 80vw;
+  }
+
+  .about-theteam-image-wrapper {
+    width: 80vw;
+    height: 100vw;
+  }
+
+  .about-theteam-image-bio {
+    max-height: 100vw;
+  }
+
+  .about-theteam-tile-andy {
+    width: 80vw;
+  }
+}
+
+
+@font-face {
+  font-family: 'Font awesome 5 brands 400';
+  src: url('../fonts/Font-Awesome-5-Brands-Regular-400.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
